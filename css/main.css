@@ -1,0 +1,28 @@
+/* (A) 3 COLUMNS PER ROW */
+#grid_sala {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto; 
+    grid-gap: 10px;
+  }
+  /* (B) 1 COL ON SMALL SCREENS */
+  @media screen and (max-width:768px) {
+    #grid_sala { grid-template-columns: auto auto; }
+  }
+  /* (C) OPTIONAL FOR THE CELLS */
+  .head, .cell { padding: 5px; }
+  .head {
+    font-weight: bold;
+    border: 1px solid #f18e8e;
+    background: #ffbfbf;
+  }
+  .cell {
+    border: 1px solid #c2ba3c;
+    background: #f8ffde;
+    /*width: 15px;*/
+  }
+
+   .cell_ocu{
+    border: 1px solid #c2ba3c;
+    background: #ea722c;
+    /*width: 15px;*/
+  }

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alumnos>
+    <alumno>
+        <nombre>Oscar Rodríguez</nombre>
+        <edad>18</edad>
+        <telefonos>
+            <telefono_trabajo>12313</telefono_trabajo>
+            <telefono_personal>12333232323232</telefono_personal>
+        </telefonos>
+    </alumno>
+
+    <alumno>
+        <nombre>Eloy Castillo</nombre>
+        <edad>32</edad>
+        <telefonos>
+            <telefono_personal>12333232323232</telefono_personal>
+        </telefonos>
+    </alumno>
+</alumnos>

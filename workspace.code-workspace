@@ -1,0 +1,42 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"mssqlOptions": {
+					"appName": "SQLTools",
+					"useUTC": true,
+					"encrypt": true
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 1433,
+				"askForPassword": true,
+				"database": "WideWorldImporters",
+				"dialect": "MSSQL",
+				"name": "test",
+				"username": "sa",
+				"driver": "MSSQL"
+			},
+			{
+				"mssqlOptions": {
+					"appName": "SQLTools",
+					"useUTC": true,
+					"encrypt": true
+				},
+				"previewLimit": 50,
+				"server": "192.168.18.23",
+				"port": 1433,
+				"driver": "MSSQL",
+				"name": "MATIAS",
+				"database": "master",
+				"username": "Aure",
+				"password": "M10ASIX!"
+			}
+		]
+	}
+}
