@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cinemapp>
+    
+    <films>
+        <film>
+            <id/>
+            <title/>
+            <actors/>
+            <year/>
+            <duration/>
+        </film>
+    </films>
+
+    <space id="">
+        <name/>
+        <num_seats/>
+    </space>
+
+    <sessions>
+        <session space_id="" film_id="" date="" hour="">
+            <price></price>
+            <seats_reserved>
+                <seat id="" user_id=""/>
+                <seat id="" user_id=""/>
+                <seat id="" user_id=""/>
+                <seat id="" user_id=""/>
+            </seats_reserved>
+        </session>
+    </sessions>
+
+
+    <users>
+        <user>
+            <id></id>
+            <name></name>
+            <email></email>
+            <address></address>
+            <last_login></last_login>
+        </user>
+    </users>
+
+</cinemapp>
