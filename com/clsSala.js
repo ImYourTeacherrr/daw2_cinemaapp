@@ -6,6 +6,8 @@ class clsSala{
         this.containerHTML=document.getElementById("grid_sala");
         this.CreateAsientos();
     }
+
+///////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////
     CreateAsientos(){
         for (var i=0; i<this.num_asientos; i++){

@@ -1,20 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<entrada>
+    <meteo>
+        <temp>15 C</temp>
+        <des>cSoleado</desc>
+    </meteo>
+    <transport>
+
+    </transport>
+
+
+    <test/>
+    <pepecar></pepecar>
+
+
+</entrada>
+
+
+
+
+//////
 <alumnos>
     <alumno>
-        <nombre>Oscar Rodríguez</nombre>
+        <nombre>Oscar Pelaez</nombre>
         <edad>18</edad>
         <telefonos>
-            <telefono_trabajo>12313</telefono_trabajo>
-            <telefono_personal>12333232323232</telefono_personal>
+            <telefono type="trabajo">12313</telefono>
+            <telefono type="personal">666666666</telefono>
         </telefonos>
+        <redes_sociales>
+            <red_social name="twitter">
+                <link>http://twitter/tutiatuiteatuoto</link>
+            </red_social>
+
+        </redes_sociales>
     </alumno>
 
+
     <alumno>
-        <nombre>Eloy Castillo</nombre>
-        <edad>32</edad>
+        <nombre>Mar Savide</nombre>
+        <edad>18</edad>
         <telefonos>
-            <telefono_personal>12333232323232</telefono_personal>
+            <telefono type="personal">666666666</telefono>
         </telefonos>
+        <redes_sociales>
+            
+        </redes_sociales>
+
+        <hermanos>
+            <alumno>
+                <nombre>Victor Salvide</nombre>
+                <edad>18</edad>
+                <telefonos>
+                    <telefono type="personal">666666666</telefono>
+                </telefonos>
+                <redes_sociales>
+                    
+                </redes_sociales>
+        
+                <hermanos>
+                    
+                </hermanos>
+            </alumno>
+        </hermanos>
     </alumno>
+    
 </alumnos>

@@ -21,8 +21,16 @@
     /*width: 15px;*/
   }
 
-   .cell_ocu{
+   .cell_red{
     border: 1px solid #c2ba3c;
+    background: #ea722c;
+    /*width: 15px;*/
+  }
+
+
+
+  .cell_red_myseat{
+    border: 4px solid #47473c;
     background: #ea722c;
     /*width: 15px;*/
   }
