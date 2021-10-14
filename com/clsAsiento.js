@@ -29,7 +29,7 @@ class clsAsiento {
     Draw() {        
         
         this._html_cell.className= this._getClassName();
-        return this._html_cell;
+        return this._html_cell ;
     }
     ///////////////////////////////////////////////////////
     _getClassName(){
