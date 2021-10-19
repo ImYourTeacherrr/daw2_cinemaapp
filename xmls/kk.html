@@ -1,0 +1,8 @@
+0) and ($len_cat_tl > 0) and ($len_cat_de > 0)){ $sql = "insert into categories (category_id, title, description)"; $sql .= " values ('$Cat_ID', '$Cat_Title', '$Cat_Desc')"; $result = $db->query($sql); $db->commit( ); } else { echo "
+Please make sure all fields are filled in "; echo "and try again.
+
+\n"; } } // list categories reporting section // query all records in the table after any // insertion that may have occurred above $sql = "select * from categories"; $result = $db->query($sql); ?>
+fetchRow( )){ echo "\n"; } ?>
+Cat ID	Title	Description
+$row[0]	$row[1]	$row[2]
+ docstore.mik.ua/orelly/webprog/php/ch08_05.htm
